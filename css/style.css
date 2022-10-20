@@ -1,0 +1,29 @@
+.logo {
+    text-align: center;
+}
+
+img#logo {
+    height: 55px;
+}
+
+.zone_recherche {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+}
+
+input {
+    display: flex;
+    margin-left: 40px;
+}
+
+.fa-location-dot {
+    /* Icône barre de recherche */
+    font-size: 17px;
+    /* Taille de l'icône "localisation" */
+    padding: 2px;
+    padding-top: 1px;
+    padding-left: 18px;
+}
