@@ -208,7 +208,7 @@ img.logo {
   margin: 1rem 0 1rem 0.75rem;
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
   border-radius: 1.25rem;
-  background-color: #f6f6f6;
+  background-color: rgb(245, 240, 240);
   display: flex;
   position: relative;
 }
@@ -241,6 +241,11 @@ img.logo {
   color: white;
   position: absolute;
   left: -0.75rem;
+}
+.function__step:hover {
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.795);
 }
 .function__icon {
   margin-right: 1rem;
@@ -590,4 +595,3 @@ img.logo {
   color: inherit;
 }
 
-/*# sourceMappingURL=style.css.map */
