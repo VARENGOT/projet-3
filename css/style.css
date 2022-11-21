@@ -40,6 +40,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.input {
+  border: none;
+  background: #f3f3f3;
+}
+
 .container {
   max-width: 1280px;
   margin: auto;
@@ -171,6 +176,11 @@ img.logo {
   position: relative;
 }
 
+.localisation input {
+  border: none;
+  background: #f3f3f3;
+}
+
 .localisation__icon {
   margin-right: 1rem;
 }
@@ -292,6 +302,11 @@ img.logo {
   background-color: rgb(238 224 237);
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.795);
 }
+
+.function__step:hover>i {
+  color: black;
+}
+
 
 .function__icon {
   margin-right: 1rem;
